@@ -442,8 +442,7 @@ function App() {
             <div class="shoptext">
               <p>Sell And Buy App</p>
               <h3>
-                Another app ever from zpnet company. Lorem Ipsum has been the
-                industry's
+                Another app from paschals hub is....
               </h3>
             </div>
           </div>
