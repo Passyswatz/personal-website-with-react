@@ -379,7 +379,7 @@ function App() {
                   <p>
                     Understanding of data structures algorithms including data
                     migration, transformation and analysis. Deploying, managing,
-                    and operating scalable, highly available, and learning how o handle  fault tolerant
+                    and operating scalable, highly available, and learning how to handle  fault tolerant
                     systems on AWS.
                   </p>
                   <p>
