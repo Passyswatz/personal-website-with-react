@@ -28,7 +28,8 @@ function App() {
               <h1>Hello, I'm Paschal Og.</h1>
               <p>
                 A frontend developer. Specializing in building exceptional
-                trending mobile applications and websites. Feel free to take a
+                trending mobile applications and websites.And collabrating with other developers to deliver
+                quality mobile and web applications.Feel free to take a
                 look at my latest projects. Remotely available UTC−1 to UTC+8.
                 project@githubcom/passyswatz Tel:+234 909 251 3945
               </p>
