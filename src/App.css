@@ -27,6 +27,259 @@
 .App-link {
   color: #61dafb;
 }
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700|Poppins:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+
+/* Add this media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .section .sectionBox {
+    width: 90%;
+  }
+  
+  .section .sectionImage {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .section .sectionWords h4 {
+    font-size: 14px;
+  }
+  
+  .section .sectionWords p {
+    font-size: 14px;
+  }
+  
+  .aboutMeImg img {
+    height: 300px;
+  }
+  
+  .about-me h5 {
+    font-size: 18px;
+  }
+  
+  .about-me p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* Add this media query for screens smaller than 576px */
+@media (max-width: 575px) {
+  .section .sectionBox {
+    width: 100%;
+  }
+  
+  .section .sectionWords p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .aboutMeImg img {
+    height: 200px;
+  }
+  
+  .about-me h5 {
+    font-size: 16px;
+  }
+  
+  .about-me p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */
+You can add more media queries and adjust the styles inside them to make the code responsive for different screen sizes. The above example shows how to modify some styles for screens smaller than 768px and 576px. You can customize the styles based on your specific design requirements.
+
+
+
+
+
+User
+make this site peaceful-cannoli-60eb40.netlify.app responsive
+ChatGPT
+To make the website responsive, you need to modify the CSS code. Here's an updated version of the code with responsive adjustments:
+
+css
+Copy code
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700|Poppins:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+
+/* Reset styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body a,
+body button {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Alerts */
+.alert {
+  padding: 1rem;
+  border: 0.5rem solid transparent;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.alert-info {
+  color: #2020a0;
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+.alert-success {
+  color: #549400;
+  background-color: #eaf5eb;
+  text-align: center;
+}
+
+.alert-danger {
+  color: rgb(165, 14, 14);
+  background-color: #f3e6e6;
+  text-align: center;
+}
+
+.hrizontalLine {
+  width: 40%;
+  height: 3px;
+  background-color: #046fc7;
+  margin-top: 6%;
+}
+
+.diff {
+  width: 50%;
+  background-color: orange;
+}
+
+/* Header */
+header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.header-white {
+  background-color: white;
+}
+
+.header-black {
+  background-color: #001517;
+}
+
+.header-black .menu a {
+  color: white;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav2 {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.menu {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+}
+
+.nav1 a img {
+  width: 20%;
+  height: 50px;
+  object-fit: contain;
+}
+
+.menu:hover a,
+.buttonMain a:hover {
+  color: orange;
+  transition: 0.5s linear;
+}
+
+.menu a {
+  font-size: 15
 
 @keyframes App-logo-spin {
   from {
