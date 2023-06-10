@@ -1106,3 +1106,65 @@ footer {
   font-weight: 100;
 }
 /* FOOTER END */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700|Poppins:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+
+/* Add this media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .section .sectionBox {
+    width: 90%;
+  }
+  
+  .section .sectionImage {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .section .sectionWords h4 {
+    font-size: 14px;
+  }
+  
+  .section .sectionWords p {
+    font-size: 14px;
+  }
+  
+  .aboutMeImg img {
+    height: 300px;
+  }
+  
+  .about-me h5 {
+    font-size: 18px;
+  }
+  
+  .about-me p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* Add this media query for screens smaller than 576px */
+@media (max-width: 575px) {
+  .section .sectionBox {
+    width: 100%;
+  }
+  
+  .section .sectionWords p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .aboutMeImg img {
+    height: 200px;
+  }
+  
+  .about-me h5 {
+    font-size: 16px;
+  }
+  
+  .about-me p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */
